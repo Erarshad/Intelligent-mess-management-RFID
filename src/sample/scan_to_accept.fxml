@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pword" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.scanner_controller">
+   <children>
+      <TextField fx:id="scan" layoutX="22.0" layoutY="333.0" onAction="#automation_input" prefHeight="25.0" prefWidth="557.0" promptText="Scan with rfid or enter unique id " style="-fx-background-radius: 50;" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="21.0" />
+      <Button layoutX="520.0" layoutY="366.0" mnemonicParsing="false" onAction="#search" text="Search ">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="366.0" mnemonicParsing="false" onAction="#back_2_menu" text="Back">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="11.0" layoutY="23.0" text="Name ">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="74.0" text="Roll no">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="152.0" text="Course">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="152.0" text="Branch">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="111.0" text="year">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="200.0" text="Recharge Type">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" layoutX="83.0" layoutY="23.0" text="N/A" textFill="#c91d1d">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="course" layoutX="117.0" layoutY="152.0" text="N/A" textFill="#940a0a">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="branch" layoutX="340.0" layoutY="152.0" text="N/A" textFill="#940a0a">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="year" layoutX="88.0" layoutY="111.0" text="N/A" textFill="#940a0a">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="recharge_type" layoutX="127.0" layoutY="200.0" text="N/A" textFill="#9e0a0a">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="roll" layoutX="100.0" layoutY="74.0" text="N/A" textFill="#c91d1d">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="202.0" text="Session">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="session" layoutX="444.0" layoutY="202.0" text="N/A" textFill="#940a0a">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="244.0" text="Validity of recharge">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="validity_recharge" layoutX="178.0" layoutY="244.0" text="N/A" textFill="#9e0a0a">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="285.0" />
+      <Label layoutX="10.0" layoutY="283.0" text="Allowed">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="allowed" layoutX="100.0" layoutY="283.0" text="N/A" textFill="#9e0a0a">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img" fitHeight="190.0" fitWidth="172.0" layoutX="427.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

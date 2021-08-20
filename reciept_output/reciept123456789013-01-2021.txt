@@ -1,0 +1,19 @@
+   RECIEPT OF RECHARGE 
+Unique Id : 1234567890
+Recharge type:  Monthly recharge
+Recharge valid:  13-01-2021 to 13-02-2021
+time of recharge: 18:12:00
+date  of recharge: 13-01-2021
+Sign of mess vendor:........................................ 
+computer generated reciept  
+
+ .................................#######MESS ERP 1.0 ######################## @RSHAD   RECIEPT OF RECHARGE 
+Unique Id : 1234567890
+Recharge type:  Monthly recharge
+Recharge valid:  13-01-2021 to 13-02-2021
+time of recharge: 18:15:48
+date  of recharge: 13-01-2021
+Sign of mess vendor:........................................ 
+computer generated reciept  
+
+ .................................#######MESS ERP 1.0 ######################## @RSHAD

@@ -1,0 +1,16 @@
+uniqueid,fname,lname,Roll no,Course,year,branch,date of reg,time of reg
+123,asd,dsa,123ad,B.Tech,3,CSE,a,b
+234,hhhs,jkjkjkj,nknnkkkn,M.B.A,3,Y,08-01-2021,14:32:29
+765,arshad,q,12346,B.Tech,1,CSE,08-01-2021,22:31:58
+5562,arshad,q,1854510011,B.Tech,1,CSE,09-01-2021,07:50:19
+12344,hhhhsa,hkkhhk,6777,B.Tech,2,CE,08-01-2021,14:36:40
+55463,arsa,hyus,2ddd,M.B.A,1,ME,09-01-2021,07:52:59
+1234567877,arshad,hh,ujhgs,M.B.A,2,EE,09-01-2021,11:23:47
+1234567888,arshad,quraishi,hhhhs,B.Tech,1,CSE,09-01-2021,11:19:10
+1234567890,mr x,y,66775,B.Tech,2,CSE,11-01-2021,10:47:53
+1234567891,ghs,jjjs,jjj,B.Tech,1,CSE,09-01-2021,11:12:15
+12345678910,arshad,hh,665,B.Tech,1,CSE,09-01-2021,10:38:07
+
+
+Uid,recharge mode,validity,recent recharge date,recent recharge time
+1234567890,Monthly recharge,13-01-2021-13-02-2021,13-01-2021,17:21:09

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pword" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="-9.0" prefHeight="155.0" prefWidth="615.0" style="-fx-background-color: #192e59;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="145.0" fitWidth="300.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="150.0" layoutY="119.0" prefHeight="15.0" prefWidth="346.0" text="AN INTELLIGENT MESS MANAGEMENT SYSTEM" textAlignment="CENTER">
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#bc1a1a" />
+                        <Stop color="#a68751" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+               <font>
+                  <Font name="Copperplate Gothic Light" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="14.0" layoutY="155.0" prefHeight="15.0" prefWidth="154.0" text="Please Authenticate " textAlignment="CENTER" textFill="#364278" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="207.0" text="Username">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="247.0" text="Password" />
+      <Button fx:id="loginbutton" layoutX="523.0" layoutY="345.0" mnemonicParsing="false" onAction="#getusername" text="LOGIN" AnchorPane.leftAnchor="523.0" AnchorPane.rightAnchor="22.0">
+         <font>
+            <Font name="Arial Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Pane layoutX="-8.0" layoutY="371.0" prefHeight="32.0" prefWidth="600.0" style="-fx-background-color: blue;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="674.0">
+         <children>
+            <Label layoutX="1.0" layoutY="11.0" text="DESIGN AND DEVELOPED BY MOHAMMAD ARSHAD Departement of computer science and engineering" textAlignment="CENTER" textFill="#d32d2d">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="username" layoutX="151.0" layoutY="212.0" prefHeight="26.0" prefWidth="449.0" style="-fx-background-radius: 50; -fx-background-color: silver;" AnchorPane.leftAnchor="151.0" AnchorPane.rightAnchor="0.0" />
+      <PasswordField fx:id="ps" layoutX="151.0" layoutY="244.0" prefHeight="26.0" prefWidth="449.0" promptText="passcode" style="-fx-background-color: silver; -fx-background-radius: 50;" AnchorPane.leftAnchor="151.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

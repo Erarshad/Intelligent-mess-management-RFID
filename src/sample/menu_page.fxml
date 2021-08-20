@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="-9.0" prefHeight="155.0" prefWidth="615.0" style="-fx-background-color: #192e59;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="145.0" fitWidth="300.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="150.0" layoutY="119.0" prefHeight="15.0" prefWidth="346.0" text="AN INTELLIGENT MESS MANAGEMENT SYSTEM" textAlignment="CENTER">
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#bc1a1a" />
+                        <Stop color="#a68751" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+               <font>
+                  <Font name="Copperplate Gothic Light" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ScrollPane layoutY="155.0" prefHeight="251.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="155.0">
+         <content>
+            <GridPane prefHeight="246.0" prefWidth="599.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" onAction="#settings">
+                     <graphic>
+                        <ImageView fitHeight="110.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/b8cd6d45a84bd74c9d480a3b25309261.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="settings" />
+                     </tooltip>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="8.0" mnemonicParsing="false" onAction="#open_add_new" GridPane.columnIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="110.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/add%20copy.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="add new data" />
+                     </tooltip>
+                  </Button>
+                  <Button layoutX="130.0" layoutY="8.0" mnemonicParsing="false" onAction="#reductor" GridPane.columnIndex="2">
+                     <graphic>
+                        <ImageView fitHeight="110.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/nfc.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="scan /search to authenticate" />
+                     </tooltip>
+                  </Button>
+                  <Button layoutX="250.0" layoutY="8.0" mnemonicParsing="false" onAction="#recharge_wallet" GridPane.columnIndex="3">
+                     <graphic>
+                        <ImageView fitHeight="110.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/Service%20icons_Domestic%20Money%20Transfer_02%20copy.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="recharge the quota" />
+                     </tooltip>
+                  </Button>
+                  <Button layoutX="460.0" layoutY="13.0" mnemonicParsing="false" onAction="#search_data" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="110.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/data-search-interface-search-information-magnifier-interface-magnifying-glass-file-software-webpage-%20copy.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <tooltip>
+                        <Tooltip text="search data" />
+                     </tooltip>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="136.0" mnemonicParsing="false" onAction="#exxport2excel" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <tooltip>
+                        <Tooltip text="exporter" />
+                     </tooltip>
+                     <graphic>
+                        <ImageView fitHeight="110.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/excel.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </GridPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
